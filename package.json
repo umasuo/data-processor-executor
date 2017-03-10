@@ -1,0 +1,17 @@
+{
+  "name": "data-processor",
+  "version": "0.0.1",
+  "description": "Device data processor & processor executor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/com/umasuo/dataprocessor/application.js"
+
+  },
+  "author": "liuquan89@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pg-promise": "^3.9.1"
+  }
+}
