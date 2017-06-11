@@ -15,7 +15,7 @@ app.post('/data-processors/:processorId', function(req, res) {
     var processorId = req.params.processorId
 
     console.log(processorId);
-    //TODO ready the cache to see if the processor script is in cache.
+    //TODO read the cache to see if the processor script is in cache.
     //TODO read the processor script file from the file system.
     var script = "output = input";
 
